@@ -26,7 +26,7 @@ window.onload = function () {
         content.salutation = result.salutation;
         content.signature = result.signature;
         content.body = result.body;
-        content.sign = getPureStr(content.signature).pxWidth('18px Satisfy, cursive');
+        content.sign = getPureStr(content.signature).pxWidth('10px Satisfy, cursive');
         document.title = result.title;
         $('#recipient').append(result.recipient);
         $('#flipback').text(result.sender);
