@@ -47,7 +47,7 @@ $("#open").click(function () {
 				"^1000",
 				content.salutation + "<br><br>" +
 				content.body + "<br><br><p style='float:right; display:block; width:" +
-				content.sign + "px;'>^500" + content.signature + "</p>"
+				content.sign + "px;'>" + content.signature + "</p>"
 			],
 			typeSpeed: 30,
 			backSpeed: 50
