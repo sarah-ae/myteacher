@@ -50,7 +50,7 @@ $("#open").click(function () {
 				content.sign + "px;'>^500" + content.signature + "</p>"
 			],
 			typeSpeed: 0,
-			backSpeed: 7
+			backSpeed: 0
 		});
 		$('#open').find("span").eq(0).css('background-position', "0 -150px");
 		envelope_opened = true;
